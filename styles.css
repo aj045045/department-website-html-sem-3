@@ -1,0 +1,138 @@
+#back-color {
+  background: #40abaf;
+
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+#img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.footer {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(139, 166, 255, 0.753);
+  color: black;
+  text-align: center;
+  font-stretch: expanded;
+}
+
+.button {
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(117, 198, 228);
+  width: 40%;
+  height: 40px;
+  border-top-right-radius: 20px;
+  border-end-end-radius: 20px;
+  box-shadow: 0px 10px 10px rgb(132, 119, 119);
+  border-left: 7px solid rgb(1, 54, 246);
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
+}
+
+
+
+.card {
+  background-color: rgb(235, 216, 216);
+}
+
+.card-text {
+  color: black;
+}
+
+.card-img-top {
+  size: 20px;
+  border-radius: 50%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+.login {
+  background: rgb(238, 174, 202);
+  background: linear-gradient(93deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.bg_img {
+  background-image: url(image/bg_gu.jpg);
+  height: auto;
+  padding: 15%;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pr_center {
+  text-align: center;
+  color: white;
+}
+
+div.first {
+  padding-left: 40px;
+
+}
+
+.ev1 {
+  display: inline-block;
+  flex: 33%;
+  padding-left: 30px;
+}
+
+.Openstack {
+
+  border-radius: 4px;
+  width: 700px;
+  height: 500px;
+  border-width: 5px;
+  border-color: rgb(73, 130, 187);
+}
+
+.Openstack2 {
+
+  border-radius: 4px;
+  width: 900px;
+  height: 700px;
+  border-width: 5px;
+  border-color: rgb(73, 130, 187);
+}
+
+div.fx1 {
+  /* I added this just for fun */
+  background-color: skyblue;
+  color: rgb(17, 15, 15);
+  font-family: Century Gothic;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+
+  /* The code that you need to copy */
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
+
+div.fx2 {
+  /* I added this just for fun */
+  background-color: skyblue;
+  color: rgb(17, 15, 15);
+  font-family: Century Gothic;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+
+}
