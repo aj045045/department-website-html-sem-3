@@ -19,7 +19,7 @@ Department of computer science
                 <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                     <!--Add index.html-->
                     <li class="nav-item">
-                        <a class="nav-link  text-light" href="index.html"><abbr title="HOME"><img src="image/ihome.png" height="25px"></abbr></a>
+                        <a class="nav-link  text-light" href="index.html">HOME</a>
                     </li>
                     <!--Add index.html-->
                     <li class="nav-item">
