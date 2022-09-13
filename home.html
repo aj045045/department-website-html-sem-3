@@ -2,18 +2,66 @@
 <html lang="en">
 
 <head>
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                    <a href="home.html" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                        <span class="fs-5 d-none d-sm-inline">Home</span>
+                    </a>
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+
+                        <li>
+                            <a href="courses.html" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Course</span> </a>
+                            <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                                <li class="w-100">
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Progress</span> 1 </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Researches</span> 2 </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Academics</span></a>
+                        </li>
+                        <li>
+                            <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                                <i class="fs-4 bi-bootstrap"></i> <span class="ms-1 d-none d-sm-inline">Under-Graduate</span></a>
+                            <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                                <li class="w-100">
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Post-Graduate</span> </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Project</span> </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Login</span> </a>
+                        </li>
+                    </ul>
+                    <hr>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
     <script src="script.js"></script>
     <link rel="shortcut icon" href="image/logo.png" type="image/png">
     <title>Depart. of Computer science</title>
-    
+
 </head>
 
 <body>
@@ -21,14 +69,13 @@
     <!-- Add header file     -->
     <script defer src="header.js"></script>
     <header id="header"></header>
-    <br><br><br>
+
 
 
     <!-- Image slide show -->
     <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
         <ol class="carousel-indicators">
-            <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
-                aria-label="First slide"></li>
+            <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
             <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
             <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
             <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Fourth slide"></li>
@@ -61,7 +108,7 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </button>
     </div>
-    <div class="container-fluid mt-3">
+    <div class="container-fluidmt-3">
         <br>
 
         <!-- AIM-->
@@ -69,17 +116,14 @@
             <div class="h2"> <span class="badge rounded-pill bg-primary"> AIM:</span></div>
             <br>
             <ul>
-                <li>Quality software professionalism relevant and useful to the Industry, Business and Other
-                    organization. </li>
+                <li>Quality software professionalism relevant and useful to the Industry, Business and Other organization. </li>
                 <li>To expose the students to the real world issues, encourage them.</li>
-                <li>Course that fits one’s career goals and prepare them to prove themselves in any
-                    national/international scenario.</li>
-                <li>Nation's finest in nurturing a future generation of competent, credible and ethical forensic
-                    scientists.</li>
+                <li>Course that fits one’s career goals and prepare them to prove themselves in any national/international scenario.</li>
+                <li>Nation's finest in nurturing a future generation of competent, credible and ethical forensic scientists.
+                </li>
                 <li>Adopting innovative teaching methods that promote learning, creativity and critical thinking skills.
                 </li>
-                <li>Reviewing regularly the curriculum, courses and programs offered to meet the changing needs of the
-                    forensic science profession.</li>
+                <li>Reviewing regularly the curriculum, courses and programs offered to meet the changing needs of the forensic science profession.</li>
             </ul>
             <br><br><br>
 
@@ -225,8 +269,8 @@
             <table class="table table-borderless">
                 <thead class="thead-inverse" style="background-color:rgb(91, 147, 203);color:white;">
                     <tr>
-                        <th colspan="2">M.Sc in Artificial Intelligence & Machine Learning and Defence (M.Sc(AI & ML and
-                            Defence))</th>
+                        <th colspan="2">M.Sc in Artificial Intelligence & Machine Learning and Defence (M.Sc(AI & ML and Defence))
+                        </th>
                     </tr>
                 </thead>
                 <tbody>
@@ -283,14 +327,16 @@
             <a href="#">
                 <h4 style="text-align: center;"><span class="badge bg-info p-2">Click to get Details</span></h4>
             </a>
-            <br>
-            <hr style="height:3px;">
-            <br><br><br>
+            </class>
+    </div>
+    <br>
+    <hr style="height:3px;">
+    <br><br><br>
 
-            <!-- Add footer -->
-            <br><br><br>
-            <script defer src="footer.js"></script>
-            <footer id="footer"></footer>
+    <!-- Add footer -->
+    <br><br><br>
+    <script defer src="footer.js"></script>
+    <footer id="footer"></footer>
 </body>
 
 </html>

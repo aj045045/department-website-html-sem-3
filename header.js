@@ -1,11 +1,11 @@
-
 let appHeader = `
 
 <h4><div class="fx1">
 Department of computer science
 </div></h4>
+
 <h4><div class="fx2">
-Department of computer science
+Department of Computer science
 </div>
 </h4>
 <nav class="navbar navbar-expand-sm navbar-light" id="back-color">
