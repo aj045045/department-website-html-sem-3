@@ -75,7 +75,74 @@
                 </li>
                 <li>Reviewing regularly the curriculum, courses and programs offered to meet the changing needs of the forensic science profession.</li>
             </ul>
-            <br><br><br>
+            <br><br>
+            <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+<style>
+    #more {display: none;}
+    .Moreless{
+        font-family: 'Roboto Condensed';
+        
+    }
+    #buttonreadmore {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+#buttonreadmore:hover {
+  background: #2196F3;
+  color: white;
+}
+
+
+</style>
+<div class="h2"> <span class="badge rounded-pill bg-primary"> Overview:</span></div>
+
+<p class="Moreless">Department of Computer Science, Gujarat University is the most popular,
+    well sought and best resourced Computer Science Department in Gujarat.
+    Ever since its inception, Department of Computer Science has maintained and 
+    sustained its legacy as a premium institute in providing high quality education to produce
+     personnel with professional and personal success as well as high ethics and social conduct. 
+     The resources at the department are well supported by extensive networked Computer facilities 
+     and software aids well along with skilled and experienced faculties. 
+     A pioneer institute in initiating and successfully running MCA and PGDCSA since 1982,
+      the Department initiated M.Tech.(Networking and Administration) 
+   , M.Tech.(Web Technologies) and PGDNA in 2010<span id="dots">.</span><span id="more">The aim of initiating these programs is to produce professionals 
+        ready to meet the current market needs as well as skilled in research capabilities. 
+        Understanding that Intelligent Computing is the future of computing, the department
+         initiated yet another post graduate course in Intelligent Computing. The course M.Sc.
+          (Artificial Intelligence & Machine Learning) aims to provide M.Sc. degree in Artificial
+           Intelligence and Machine Learning. This program offers a solid awareness of the key concepts
+            of Artificial Intelligence. The students would be able to develop strong basis of
+             machine learning and data mining. The students would have best career prospects in
+              scientific, business and financial sectors. Further to leverage the versatile system 
+              to train Computer professionals department has started 5 Year Integrated M. Sc. 
+              (Computer Science) in 2021
+            To promote and facilitate research in Computer Science and other interdisciplinary subjects,
+             Department offers doctoral courses like Ph.D. (Computer science) under well-experienced guides. 
+             The Department also takes the responsibility to the fullest of training the educators.
+              It has organized in recent past UGC short courses and international workshops imparting 
+              theoretical and practical training to various colleges and universities teachers at state
+               level and national level</span>
+<button onclick="myFunction()" id="buttonreadmore">Read more</button></p>
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("buttonreadmore");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+<br><br>
 
             <!-- courses -->
             <div class="h2"> <span class="badge rounded-pill bg-primary"> COURSES OFFERED :</span></div>
