@@ -106,7 +106,7 @@ div.first {
 
 div.fx1 {
     /* I added this just for fun */
-    background-color: skyblue;
+    background-color: #40abaf;
     color: rgb(17, 15, 15);
     font-family: Century Gothic;
     padding: 10px;
@@ -116,7 +116,7 @@ div.fx1 {
     left: 0px;
     right: 0px;
     top: 0px;
-}
+} 
 
 div.fx2 {
     /* I added this just for fun */
@@ -125,19 +125,8 @@ div.fx2 {
     font-family: Century Gothic;
     padding: 10px;
     text-align: center;
-    position: sticky;
+    position: relative;
     font-size: 24px;
 }
 
-div.container-fluid {
-    padding-top: 122px;
-    position: fixed;
-}
 
-#carouselId {
-    margin-left: 213px;
-}
-
-.container-fluidmt-3 {
-    margin-left: 213px;
-}
