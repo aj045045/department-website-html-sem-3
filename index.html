@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
@@ -19,12 +19,28 @@
         setTimeout(function() {
             window.open('home.html', '_self');
         }, 2000);
+
+        $(function () {
+    $('img').on("hasFadedOut", fadeInImg);
+    $('img').on("hasFadedIn", fadeOutImg);
+    fadeOutImg();
+})
+
+fadeInImg = function () {
+    $('img').fadeIn(500, function () { $('img').trigger("hasFadedIn"); });
+};
+
+fadeOutImg = function () {
+    $('img').fadeOut(2000, function () { $('img').trigger("hasFadedOut"); });
+};
     </script>
 
+<center>
 
-    <div class="ring"><img src="image/logo2.0.png" style="Width:100%;height:100%;">
+    <div class="img"><img src="image/logo2.0.png" width="95%" height="870px">
         <span></span>
     </div>
+</center>
 </body>
 
 </html>
