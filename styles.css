@@ -189,6 +189,7 @@ ul.breadcrumb li a:hover {
 #more {display: none;}
 .Moreless{
     font-family: 'Roboto Condensed';
+    font-size: 16px;
     
 }
 #buttonreadmore {
@@ -227,9 +228,3 @@ color: white;
   color: black;
 }
 
-
-.right-nav{
-  text-align: right;
-  width:50%;
-  
-}
