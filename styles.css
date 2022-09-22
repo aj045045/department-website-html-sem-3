@@ -128,5 +128,95 @@ div.fx2 {
     position: relative;
     font-size: 24px;
 }
+.fa {
+  padding: 7px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #000000;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+
+  color:#0275d8;
+  text-decoration: underline;
+}
+
+
+#more {display: none;}
+.Moreless{
+    font-family: 'Roboto Condensed';
+    
+}
+#buttonreadmore {
+border-color: #2196F3;
+color: dodgerblue
+}
+
+#buttonreadmore:hover {
+background: #2196F3;
+color: white;
+}
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background:#3B5998;
+  color: black;
+}
 
 
