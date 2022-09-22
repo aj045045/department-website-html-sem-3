@@ -22,7 +22,7 @@ Department of computer science
                     </li>
                     <!--Add index.html-->
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="courses.html"><b>COURSES</b></a>
+                        <a class="nav-link text-light" href="courses.html"><b>ACADEMICS</b></a>
                     </li>
                     
                     <!--Add index.html-->
