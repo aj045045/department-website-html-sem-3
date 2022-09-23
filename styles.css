@@ -1,0 +1,269 @@
+#back-color {
+  background: rgb(0, 33, 71);
+
+}
+.round{
+ border-radius: 50%;
+}
+.rounded-pill{
+  background-color:rgb(1, 51, 108);
+  color:aliceblue;
+  padding-left: 20px;
+  padding-right:20px;
+
+}
+
+.d-block {
+  display: flex;
+  width: 100%;
+  max-height: 600px;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+#img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.footer {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(2, 28, 57);
+  color: snow;
+  text-align: center;
+  font-stretch: expanded;
+}
+
+.button {
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(131, 163, 252);
+  width: 40%;
+  height: 40px;
+  border-top-right-radius: 20px;
+  border-end-end-radius: 20px;
+  box-shadow: 0px 10px 10px rgb(132, 119, 119);
+  border-left: 7px solid rgb(1, 54, 246);
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
+}
+
+
+
+.card {
+  background-color: rgb(234, 209, 209);
+}
+
+.card-text {
+  color: black;
+}
+
+.card-img-top {
+  size: 20px;
+  border-radius: 50%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+.login {
+  background: rgb(238, 174, 202);
+  background: linear-gradient(93deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.bg_img {
+  background-image: url(image/bg_gu.webp);
+  height: auto;
+  padding: 15%;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pr_center {
+  text-align: center;
+  color: white;
+}
+
+div.first {
+  padding-left: 40px;
+
+}
+
+.ev1 {
+  display: inline-block;
+  flex: 33%;
+  padding-left: 30px;
+}
+
+.Openstack {
+
+  border-radius: 4px;
+  width: 700px;
+  height: 500px;
+  border-width: 5px;
+  border-color: rgb(73, 130, 187);
+}
+
+.Openstack2 {
+
+  border-radius: 4px;
+  width: 900px;
+  height: 700px;
+  border-width: 5px;
+  border-color: rgb(73, 130, 187);
+}
+
+div.fx1 {
+  /* I added this just for fun */
+  background-color: skyblue;
+  color: rgb(17, 15, 15);
+  font-family: Century Gothic;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+
+  /* The code that you need to copy */
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
+
+div.fx2 {
+  /* I added this just for fun */
+  background-color: skyblue;
+  color: rgb(17, 15, 15);
+  font-family: Century Gothic;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+
+}
+
+.fa {
+  padding: 7px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+
+  color: #0275d8;
+  text-decoration: underline;
+}
+
+
+#more {
+  display: none;
+}
+
+.Moreless {
+  font-family: 'Roboto Condensed';
+
+}
+
+#buttonreadmore {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+#buttonreadmore:hover {
+  background: #2196F3;
+  color: white;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+.navbar a:after,
+        a:before {
+            transition: all .5s;
+        }
+
+.navbar a {
+  position: relative;
+}
+.navbar a:after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: rgb(255, 147, 5);
+  height: 1px;
+}
+
+.navbar a:hover:after{
+  width: 100%;
+  height:3px;
+}
+.right-nav {
+  text-align: right;
+  width: 50%;
+
+}
