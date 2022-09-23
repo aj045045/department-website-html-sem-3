@@ -70,6 +70,7 @@ let appFooter = `
                     <style>
                         .supp {
                             padding-right: 100px;
+                            max-length:100%;
                         }
                     </style>
                 </div>
