@@ -64,16 +64,7 @@ document.getElementById("header").innerHTML = appHeader;
 //  Footer
 
 let appFooter = ` 
-<div class="supp">
-                    <div class="h2"> <span class="badge rounded-pill"> SUPPORTERS & RECRUITERS:</span></div>
-                    <img src="image/ww.png" class="Supportp">
-                    <style>
-                        .supp {
-                            padding-right: 100px;
-                            max-length:100%;
-                        }
-                    </style>
-                </div>
+
 <div class="footer footer-expand-sm p-top-5 flex-end">
 <h4 class="h4"><span class="badge bg-primary">CONTACT US</span></h4>
     <hr style="height:3px; color:white;">
