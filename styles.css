@@ -85,7 +85,7 @@ body {
 }
 
 .bg_img {
-  background-image: url(image/bg_gu.webp);
+  background-image: url(image/logos/bg_gu.webp);
   height: auto;
   padding: 15%;
   width: auto;
@@ -203,7 +203,7 @@ ul.breadcrumb li a:hover {
 
 .Moreless {
   font-family: 'Roboto Condensed';
-
+  text-align: justify;
 }
 
 #buttonreadmore {
@@ -266,4 +266,28 @@ ul.breadcrumb li a:hover {
   text-align: right;
   width: 50%;
 
+}
+
+
+ul.westside {
+  text-align: justify;
+  font-family: 'Roboto Condensed';
+  font-size: 16px;
+}
+
+
+div.scroll {
+  padding-left:7%;
+  
+  padding-right:7%;
+  margin: 4px, 4px;
+  background-color:whitesmoke;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+img.img {
+  max-height: 80px;
 }
