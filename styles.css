@@ -57,9 +57,12 @@ body {
 }
 
 
-
+.card-body .card-title .badge{
+  background-color: #3d4c41;
+}
 .card {
-  background-color: rgb(234, 209, 209);
+  background-color:rgb(190, 190, 190);
+  size: 50px;
 }
 
 .card-text {
