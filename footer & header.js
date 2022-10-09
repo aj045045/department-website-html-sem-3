@@ -39,13 +39,11 @@ let appHeader = `
                     <li class="nav-item">
                         <a class="nav-link text-light" href="about.html"><b>ABOUT</b></a>
                     </li>
-                   
+            
                 </ul>
 
                 <div class="top-header hidden-xs" >
                 <div class="container">
-                    
-                            
                             <ul class="top-social" >
                             <li>
                             </div>

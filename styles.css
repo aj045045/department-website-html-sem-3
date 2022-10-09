@@ -2,21 +2,32 @@
   background: rgb(0, 33, 71);
 
 }
-.round{
- border-radius: 50%;
+
+.round {
+  border-radius: 50%;
 }
-.rounded-pill{
-  background-color:rgb(1, 51, 108);
-  color:aliceblue;
+
+.rounded-pill {
+  background-color: rgb(1, 51, 108);
+  color: aliceblue;
   padding-left: 20px;
-  padding-right:20px;
+  padding-right: 20px;
 
 }
 
 .d-block {
-  display: flex;
+  display:flex;
   width: 100%;
-  max-height: 600px;
+  max-height: 500px;
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .d-block{
+    object-fit:cover;
+    display: flex;
+    max-height: 200px;
+  }
 }
 
 body {
@@ -57,13 +68,26 @@ body {
 }
 
 
+.pill{
+  border:2px;
+  background-color:  #002147;
+  padding-right:20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 3px;
 
+  color:whitesmoke;
+
+  max-width:fit-content;
+  border-radius: 50px 50px;
+  text-transform:uppercase;
+}
 .card {
-  background-color: rgb(234, 209, 209);
+  background-color:#154143;
 }
 
 .card-text {
-  color: black;
+  color: whitesmoke;
 }
 
 .card-img-top {
@@ -234,18 +258,19 @@ ul.breadcrumb li a:hover {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  
+
 }
 
 .navbar a:after,
-        a:before {
-            transition: all .5s;
-        }
+a:before {
+  transition: all .5s;
+}
 
 .navbar a {
   position: relative;
 }
-.navbar a:after{
+
+.navbar a:after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -258,9 +283,9 @@ ul.breadcrumb li a:hover {
   height: 1px;
 }
 
-.navbar a:hover:after{
+.navbar a:hover:after {
   width: 100%;
-  height:3px;
+  height: 3px;
 }
 .right-nav {
   text-align: right;
@@ -277,11 +302,11 @@ ul.westside {
 
 
 div.scroll {
-  padding-left:7%;
-  
-  padding-right:7%;
+  padding-left: 7%;
+
+  padding-right: 7%;
   margin: 4px, 4px;
-  background-color:whitesmoke;
+  background-color: whitesmoke;
   width: 100%;
   overflow-x: auto;
   overflow-y: hidden;
