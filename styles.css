@@ -2,7 +2,6 @@
   background: rgb(0, 33, 71);
 
 }
-
 .round {
   border-radius: 50%;
 }
@@ -71,28 +70,25 @@ body {
   background-color:  #002147;
   padding-right:20px;
   padding-left: 20px;
-  padding-top: 10px;
+  padding-top: 7px;
   padding-bottom: 3px;
-
   color:whitesmoke;
-
   max-width:fit-content;
   border-radius: 50px 50px;
   text-transform:uppercase;
+  font-size: 20px;
 }
-.card {
-  background-color:#154143;
-}
+
 .card-body .card-title .badge{
-  background-color: #3d4c41;
+  background-color:#016064;
 }
 .card {
-  background-color:rgb(190, 190, 190);
+  background-color:#7dbdb6d3;
   size: 50px;
 }
 
 .card-text {
-  color: whitesmoke;
+  color: black;
 }
 
 .card-img-top {
