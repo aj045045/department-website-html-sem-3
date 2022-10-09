@@ -1,10 +1,9 @@
 // Header
 
-let appHeader = `
+let appHeader = `// Header
 <nav class="navbar navbar-expand-sm navbar-dark  " id="back-color">
         <div class="container flex-start">
-        <br>
-            <a class="navbar-brand" href="home.html"> <img src="image/logos/logo1.webp" alt="Avatar Logo" style="width:70px;" class="round"> </a>
+            <a class="navbar-brand" href="home.html"> <img src="image/logos/logo1.webp" alt="Avatar Logo" style="width:90px;" class="round"> </a>
             <button class="navbar-toggler d-lg-none" type="button" style="color: aliceblue;" data-bs-toggle="collapse"   data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -37,9 +36,29 @@ let appHeader = `
                     <li class="nav-item">
                         <a class="nav-link text-light" href="about.html"><b>ABOUT</b></a>
                     </li>
-            
+                   
                 </ul>
-                </nav>
+
+                <div class="top-header hidden-xs" >
+                <div class="container">
+                    
+                            
+                            <ul class="top-social" >
+                            <li>
+                            </div>
+                            <form action="/action_page.php"  >
+                            <input type="text" id="username" name="username" >
+                            <input type="submit" value="Search">
+                            </form>
+                                <a rel="noreferrer" href="https://www.facebook.com/M-Sc-Artificial-Intelligence-Machine-Learning-at-Rollwala-GU-654124395030598/" target="_blank"><img src="image/logos/flogo.png" style="height:30px;width:30px;padding:5px; background:cadetblue;border-radius:50%"></a>
+                                <a rel="noreferrer" href="https://www.instagram.com/gujarat_university/" target="_blank" ><img src="image/logos/insta.png" style="border-radius:50%; padding:3px;width:30px; background:cadetblue; "></a>
+                                <a rel="noreferrer" href="https://www.google.com/maps/place/Department+of+Computer+Science,+Maharshi+Pingal+-+School+of+Advanced+Computing+and+Information+Technology/@23.0362486,72.545091,19.77z/data=!4m5!3m4!1s0x395e859c09adf79f:0xe1d87bc33ed48fe7!8m2!3d23.0360673!4d72.5452956" target="_blank" ><img src="image/logos/imap.webp" style="height:33px;width:30px;padding:5px; background:cadetblue;border-radius:50%"></a>
+                                <a class="nav-link text-light" href="signin.html" target="_blank"><b>SIGN IN</b></a><br>
+                                </li>
+                                </ul>
+                                </div>
+                                </nav>
+
 `;
 document.getElementById("header").innerHTML = appHeader;
 
