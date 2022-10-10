@@ -314,5 +314,6 @@ div.scroll {
 }
 
 img.img {
+  align-items: center;
   max-height: 80px;
 }
