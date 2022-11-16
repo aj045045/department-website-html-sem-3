@@ -334,13 +334,13 @@ img.img {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color:rgb(243, 55, 86);
+  background-color:rgb(233, 67, 95);
   color: white;
   cursor: pointer;
   padding: 10px;
-  border-radius:50%;
+  border-radius: 50%;
 }
 
 #myBtn:hover {
-  background-color:  rgb(16, 74, 141);
+  background-color: rgb(237, 116, 136);
 }

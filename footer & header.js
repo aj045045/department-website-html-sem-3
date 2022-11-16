@@ -60,8 +60,7 @@ let appHeader = `
                                 </li>
                                 </ul>
                                 </div>
-                                </nav>
-                                <button onclick="topFunction()" id="myBtn" title="Go to top">&uarr;</button>
+                                </nav>\
 `;
 document.getElementById("header").innerHTML = appHeader;
 
