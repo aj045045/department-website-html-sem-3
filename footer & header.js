@@ -68,21 +68,7 @@ document.getElementById("header").innerHTML = appHeader;
 //  Footer
 
 let appFooter = ` 
-<div class="scroll">
-<img class="img" src="image/collaborators/1scr.webp" >
-<img class="img" src="image/collaborators/2scr.webp" >
-<img class="img" src="image/collaborators/3scr.webp" >
-<img class="img" src="image/collaborators/4scr.webp" >
-<img class="img" src="image/collaborators/5scr.webp" >
-<img class="img" src="image/collaborators/6scr.webp" >
-<img class="img" src="image/collaborators/7scr.webp" >
-<img class="img" src="image/collaborators/8scr.webp" >
-<img class="img" src="image/collaborators/9scr.webp" >
-<img class="img" src="image/collaborators/10scr.webp" >
-<img class="img" src="image/collaborators/11scr.webp" >
-<img class="img" src="image/collaborators/12scr.webp" >
-<img class="img" src="image/collaborators/13scr.webp" >
-</div>
+
 <div class="footer footer-expand-sm p-top-5 flex-end">
 <h4 class="h4"><span class="badge bg-primary">CONTACT US</span></h4>
     <hr style="height:3px; color:white;">
