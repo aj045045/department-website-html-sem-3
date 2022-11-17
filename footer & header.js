@@ -53,11 +53,11 @@ let appHeader = `
                             <input type="text" id="username" name="username" >
                             <input type="submit" value="Search">
                             </form>
-                                <a rel="noreferrer" href="https://www.facebook.com/M-Sc-Artificial-Intelligence-Machine-Learning-at-Rollwala-GU-654124395030598/" target="_blank"><img src="image/logos/flogo.png" style="height:33px;width:30pxborder-radius:50%"></a>
-                                <a rel="noreferrer" href="https://www.instagram.com/gujarat_university/" target="_blank" ><img src="image/logos/insta.jpeg" style="height:33px;width:30px;border-radius:50%"></a>
+                                <a rel="noreferrer" href="https://www.facebook.com/M-Sc-Artificial-Intelligence-Machine-Learning-at-Rollwala-GU-654124395030598/" target="_blank"><img src="image/logos/flogo.png" style="height:30px;width:30px;padding:5px; background:cadetblue;border-radius:50%"></a>
+                                <a rel="noreferrer" href="https://www.instagram.com/gujarat_university/" target="_blank" ><img src="image/logos/insta.png" style="border-radius:50%; padding:3px;width:30px; background:cadetblue; "></a>
                                 <a rel="noreferrer" href="https://www.google.com/maps/place/Department+of+Computer+Science,+Maharshi+Pingal+-+School+of+Advanced+Computing+and+Information+Technology/@23.0362486,72.545091,19.77z/data=!4m5!3m4!1s0x395e859c09adf79f:0xe1d87bc33ed48fe7!8m2!3d23.0360673!4d72.5452956" target="_blank" ><img src="image/logos/imap.webp" style="height:33px;width:30px;padding:5px; background:cadetblue;border-radius:50%"></a>
-                                <a class="nav-link text-light" href="signin.html" target="_blank"><b>SIGN IN</b></a><br>
-                                </li>
+                                <a class="nav-link text-light" href="signin.html" target="_blank"><b>SIGN IN</b></a><br>    
+                                 </li>
                                 </ul>
                                 </div>
                                 </nav>
