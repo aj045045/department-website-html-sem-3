@@ -1,16 +1,17 @@
 // Header
 
 let appHeader = `
-<nav class="navbar navbar-expand-sm navbar-dark  " id="back-color">
-<div class="container flex-start"><br>
 
-            <a class="navbar-brand" href="home.html"> <img src="image/logos/logo1.webp" alt="Avatar Logo" style="width:90px;" class="round"> </a>
+   
+
+<nav class="navbar navbar-expand-sm navbar-dark  " id="back-color">
+        <div class="container flex-start">
+            <a class="navbar-brand" href="home.html"> <img src="image/logos/logo1.webp" alt="Avatar Logo" style="width:70px;" class="round"> </a>
             <button class="navbar-toggler d-lg-none" type="button" style="color: aliceblue;" data-bs-toggle="collapse"   data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavId">
-            
                 <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                     <!--Add index.html-->
                     <li class="nav-item">
@@ -52,21 +53,36 @@ let appHeader = `
                             <input type="text" id="username" name="username" >
                             <input type="submit" value="Search">
                             </form>
-                                <a rel="noreferrer" href="https://www.facebook.com/M-Sc-Artificial-Intelligence-Machine-Learning-at-Rollwala-GU-654124395030598/" target="_blank"><img src="image/logos/flogo.png" style="height:30px;width:30px;padding:5px; background:cadetblue;border-radius:50%"></a>
-                                <a rel="noreferrer" href="https://www.instagram.com/gujarat_university/" target="_blank" ><img src="image/logos/insta.png" style="border-radius:50%; padding:3px;width:30px; background:cadetblue; "></a>
+                                <a rel="noreferrer" href="https://www.facebook.com/M-Sc-Artificial-Intelligence-Machine-Learning-at-Rollwala-GU-654124395030598/" target="_blank"><img src="image/logos/flogo.png" style="height:33px;width:30pxborder-radius:50%"></a>
+                                <a rel="noreferrer" href="https://www.instagram.com/gujarat_university/" target="_blank" ><img src="image/logos/insta.jpeg" style="height:33px;width:30px;border-radius:50%"></a>
                                 <a rel="noreferrer" href="https://www.google.com/maps/place/Department+of+Computer+Science,+Maharshi+Pingal+-+School+of+Advanced+Computing+and+Information+Technology/@23.0362486,72.545091,19.77z/data=!4m5!3m4!1s0x395e859c09adf79f:0xe1d87bc33ed48fe7!8m2!3d23.0360673!4d72.5452956" target="_blank" ><img src="image/logos/imap.webp" style="height:33px;width:30px;padding:5px; background:cadetblue;border-radius:50%"></a>
-                                <a class="nav-link text-light" href="signin.html" target="_blank"><b>SIGN IN</b></a><br>    
-                                
+                                <a class="nav-link text-light" href="signin.html" target="_blank"><b>SIGN IN</b></a><br>
                                 </li>
                                 </ul>
                                 </div>
-                                </nav>\
+                                </nav>
+                                <button onclick="topFunction()" id="myBtn" title="Go to top">&uarr;</button>
 `;
 document.getElementById("header").innerHTML = appHeader;
 
 //  Footer
 
 let appFooter = ` 
+<div class="scroll">
+<img class="img" src="image/collaborators/1scr.webp" >
+<img class="img" src="image/collaborators/2scr.webp" >
+<img class="img" src="image/collaborators/3scr.webp" >
+<img class="img" src="image/collaborators/4scr.webp" >
+<img class="img" src="image/collaborators/5scr.webp" >
+<img class="img" src="image/collaborators/6scr.webp" >
+<img class="img" src="image/collaborators/7scr.webp" >
+<img class="img" src="image/collaborators/8scr.webp" >
+<img class="img" src="image/collaborators/9scr.webp" >
+<img class="img" src="image/collaborators/10scr.webp" >
+<img class="img" src="image/collaborators/11scr.webp" >
+<img class="img" src="image/collaborators/12scr.webp" >
+<img class="img" src="image/collaborators/13scr.webp" >
+</div>
 <div class="footer footer-expand-sm p-top-5 flex-end">
 <h4 class="h4"><span class="badge bg-primary">CONTACT US</span></h4>
     <hr style="height:3px; color:white;">
@@ -114,6 +130,7 @@ function myFunction() {
   }
 }
 
+
 // PIE CHART  (> home)
 var ctxD = document.getElementById("doughnutChart").getContext('2d');
 var myLineChart = new Chart(ctxD, {
@@ -132,7 +149,18 @@ var myLineChart = new Chart(ctxD, {
 });
 
 
-// scroll up button
+
+
+// Initialize tooltips
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+
+
+
+
+// SCroll up button
 
 // Get the button
 let mybutton = document.getElementById("myBtn");
