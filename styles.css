@@ -71,7 +71,7 @@ body {
   padding-right:20px;
   padding-left: 20px;
   padding-top: 7px;
-  padding-bottom: 3px;
+  padding-bottom: 7px;
   color:whitesmoke;
   max-width:fit-content;
   border-radius: 50px 50px;
@@ -83,7 +83,7 @@ body {
   background-color:#016064;
 }
 .card {
-  background-color:#7dbdb6d3;
+  background-color:#ffffffd3;
   size: 50px;
 }
 
@@ -343,4 +343,17 @@ img.img {
 
 #myBtn:hover {
   background-color: rgb(237, 116, 136);
+}
+.fd-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:70%;
+  display: block;
+}
+
+/* chart */
+.doughnutChart{
+  min-width: 100px;
+
 }
