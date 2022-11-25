@@ -1,16 +1,7 @@
 // Header
 
 let appHeader = `
-<style>
-        .nav-img{ 
-            height:30px;
-            width:30px;
-            padding:5px;
-             background:cadetblue;
-             border-radius:50%;
-        }
-        
-    </style>
+
 
 
     <nav class="navbar navbar-expand-sm navbar-dark  " id="back-color">
@@ -82,32 +73,28 @@ document.getElementById("header").innerHTML = appHeader;
 let appFooter = ` 
 
 <div class="footer footer-expand-sm p-top-5 flex-end">
-<h4 class="h4"><span class="badge bg-primary">CONTACT US</span></h4>
-    <hr style="height:3px; color:white;">
-<table >
-    <tr>
-        <td><img src="image/logos/imap.webp" height="20px">|</td>
-    <td> Gujarat University, near Ambedkar Gate, University Area, Ahmedabad, Gujarat 380009</td>
-    </tr>
-    <tr>
-        <td>📞|</td>
-        <td style="text-align:left"> 09727797105</td>
-    </tr>
-    <tr>
-        <td>📧| </td>
-        <td style="text-align:left" > admissions.dcs@gmail.com</td>
-    </tr>
-</table>
-<br><br>
-<!--<h4 class="h4"><span class="badge pt-2 bg-primary">CONNECT WITH US</span></h4>
-<hr style="height:3px; color:white;">
+        <h4 class="h4"><span class="badge bg-primary">CONTACT US</span></h4>
+        <hr style="height:3px; color:white;">
+        <table>
+            <tr>
+                <td><img src="image/logos/imap.webp" height="20px">|</td>
+                <td class="tdrow"> Gujarat University, near Ambedkar Gate, University Area, Ahmedabad,
+                    Gujarat 380009</td>
+            </tr>
 
- Add font awesome icons 
-<a href="https://www.facebook.com/M-Sc-Artificial-Intelligence-Machine-Learning-at-Rollwala-GU-654124395030598/" class="fa fa-facebook"></a>
-<a href="https://instagram.com/msc_computerscience_gu?igshid=YmMyMTA2M2Y=" class="fa fa-instagram"></a>
-<a href="https://www.google.com/maps/place/Department+of+Computer+Science,+Maharshi+Pingal+-+School+of+Advanced+Computing+and+Information+Technology/@23.0362486,72.545091,19.77z/data=!4m5!3m4!1s0x395e859c09adf79f:0xe1d87bc33ed48fe7!8m2!3d23.0360673!4d72.5452956" ><img src="image/logos/imap.webp" style="height:33px;width:30px;padding:5px; background:cadetblue;border-radius:50%"></a>
--->
-</div>
+            <tr>
+                <td>📞|</td>
+                <td class="tdrow"> 09727797105</td>
+            </tr>
+
+            <tr>
+                <td>📧| </td>
+                <td class="tdrow"> admissions.dcs@gmail.com</td>
+            </tr>
+        </table>
+        <br><br>
+
+    </div>
 `;
 document.getElementById("footer").innerHTML = appFooter;
 
@@ -128,27 +115,47 @@ function myFunction() {
   }
 }
 
-
 // PIE CHART  (> home)
-var ctxD = document.getElementById("doughnutChart").getContext('2d');
+var ctxD = document.getElementById("doughnutChart").getContext("2d");
 var myLineChart = new Chart(ctxD, {
-  type: 'doughnut',
+  type: "doughnut",
   data: {
-    labels: ["Computer Science", "MCA", "PGDCSA", "M.Sc AI & ML", "M.Sc AI & ML & Defence", "Integrated M.Sc(computer science)"],
-    datasets: [{
-      data: [40, 49, 44, 24, 15, 15],
-      backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C", "#949FB1", "#4D5360", "#fa8072"],
-      hoverBackgroundColor: ["#FF5A5E", "#5AD3D1", "#FFC870", "#A8B3C5", "#616774", "#f6a298"]
-    }]
-  }
+    labels: [
+      "Computer Science",
+      "MCA",
+      "PGDCSA",
+      "M.Sc AI & ML",
+      "M.Sc AI & ML & Defence",
+      "Integrated M.Sc(computer science)",
+    ],
+    datasets: [
+      {
+        data: [40, 49, 44, 24, 15, 15],
+        backgroundColor: [
+          "#F7464A",
+          "#46BFBD",
+          "#FDB45C",
+          "#949FB1",
+          "#4D5360",
+          "#fa8072",
+        ],
+        hoverBackgroundColor: [
+          "#FF5A5E",
+          "#5AD3D1",
+          "#FFC870",
+          "#A8B3C5",
+          "#616774",
+          "#f6a298",
+        ],
+      },
+    ],
+  },
 });
 
-
-
-
 // Initialize tooltips
-var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipTriggerList = [].slice.call(
+  document.querySelectorAll('[data-bs-toggle="tooltip"]')
+);
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-  return new bootstrap.Tooltip(tooltipTriggerEl)
-})
-
+  return new bootstrap.Tooltip(tooltipTriggerEl);
+});

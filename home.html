@@ -16,7 +16,17 @@
     <link rel="shortcut icon" href="image/logos/logo.webp" type="image/webp">
     <title>Depart. of Computer science</title>
 
+    <style>
+        .scroll::-webkit-scrollbar {
+            height: 5px;
+        }
 
+        .scroll:hover::-webkit-scrollbar-thumb {
+            border-radius: 50px;
+            background-color:grey;
+
+        }
+    </style>
 </head>
 
 <body>
@@ -29,7 +39,9 @@
     <!-- Header -->
     <header id="header"></header>
 
-    <div style="padding-top: 130px;"></div>
+    <ul class="breadcrumb" style="padding-top:130px;padding-left: 7%;">
+        <li>Home</li>
+    </ul>
     <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
         <ol class="carousel-indicators">
             <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
