@@ -1,662 +1,22 @@
+
+                                                                            /*TODO: Body styling */
+body {
+  background-color: whitesmoke;
+}
+
+                                                                            /* TODO:Navbar in javascript file */
 #back-color {
+  /** color code */
   background: rgb(0, 33, 71);
 
 }
 
-.round {
-  border-radius: 50%;
-}
-
-.rounded-pill {
-  background-color: rgb(1, 51, 108);
-  color: aliceblue;
-  padding-left: 20px;
-  padding-right: 20px;
-
-}#back-color {
-  background: rgb(0, 33, 71);
-
-}
-
-.round {
-  border-radius: 50%;
-}
-
-.rounded-pill {
-  background-color: rgb(1, 51, 108);
-  color: aliceblue;
-  padding-left: 20px;
-  padding-right: 20px;
-
-}
-
-.d-block {
-  display: flex;
-  width: 100%;
-  max-height: 500px;
-
-}
-
-@media only screen and (max-width: 600px) {
-  .d-block {
-    object-fit: cover;
-    display: flex;
-    max-height: 200px;
-  }
-}
-
-body {
-  background-color: whitesmoke;
-}
-
-#img {
-  width: 40px;
-  margin-right: 10px;
-}
-
-.footer {
-  padding-left: 20px;
-  padding-bottom: 20px;
-  position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: rgb(2, 28, 57);
-  color: snow;
-  text-align: center;
-  font-stretch: expanded;
-}
-
-.button {
-  margin-top: 10px;
-  color: rgb(255, 255, 255);
-  background-color: rgb(131, 163, 252);
-  width: 40%;
-  height: 40px;
-  border-top-right-radius: 20px;
-  border-end-end-radius: 20px;
-  box-shadow: 0px 10px 10px rgb(132, 119, 119);
-  border-left: 7px solid rgb(1, 54, 246);
-  border-bottom-color: transparent;
-  border-right-color: transparent;
-  border-top-color: transparent;
-}
-
-.pill {
-  border: 2px;
-  background-color: #002147;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  color: whitesmoke;
-  max-width: fit-content;
-  border-radius: 50px 50px;
-  text-transform: uppercase;
-  font-size: 20px;
-}
-
-.card-body .card-title .badge {
-  background-color: #016064;
-}
-
-.card {
-  background-color: #ffffffd3;
-  height: 300px;
-}
-
-.card:hover {
-  box-shadow: 4.2px 8.3px 8.3px hsl(0deg 0% 0% / 0.37);
-  overflow: auto;
-  z-index: 7;
-}
-
-.card:hover::-webkit-scrollbar {
-  width:5px;
-  height: 5px;
-}
-
-.card:hover::-webkit-scrollbar-thumb {
-  border-radius: 30px;
-  background-color:grey;
-
-}
-
-
-.card-text {
-  color: black;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.card-img-top {
-  size: 20px;
-  border-radius: 50%;
-}
-
-/* Login form */
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 200px;
-  display: block;
-}
-
-
-
-.bg_img {
-  background-image: url(image/logos/bg_gu.webp);
-  height: auto;
-  padding: 15%;
-  width: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.pr_center {
-  text-align: center;
-  color: white;
-}
-
-div.first {
-  padding-left: 40px;
-
-}
-
-.ev1 {
-  display: inline-block;
-  flex: 33%;
-  padding-left: 30px;
-}
-
-.Openstack {
-
-  border-radius: 4px;
-  width: 700px;
-  height: 500px;
-  border-width: 5px;
-  border-color: rgb(73, 130, 187);
-}
-
-.Openstack2 {
-
-  border-radius: 4px;
-  width: 900px;
-  height: 700px;
-  border-width: 5px;
-  border-color: rgb(73, 130, 187);
-}
-
-div.fx1 {
-  /* I added this just for fun */
-  background-color: skyblue;
-  color: rgb(17, 15, 15);
-  font-family: Century Gothic;
-  padding: 10px;
-  text-align: center;
-  position: fixed;
-
-  /* The code that you need to copy */
-  left: 0px;
-  right: 0px;
-  top: 0px;
-}
-
-div.fx2 {
-  /* I added this just for fun */
-  background-color: skyblue;
-  color: rgb(17, 15, 15);
-  font-family: Century Gothic;
-  padding: 10px;
-  text-align: center;
-  position: relative;
-
-}
-
-.fa {
-  padding: 7px;
-  font-size: 20px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-}
-
-.fa:hover {
-  opacity: 0.5;
-}
-
-
-ul.breadcrumb {
-  padding: 10px 16px;
-  list-style: none;
-
-}
-
-ul.breadcrumb li {
-  display: inline;
-  font-size: 18px;
-}
-
-ul.breadcrumb li+li:before {
-  padding: 8px;
-  color: black;
-  content: "/\00a0";
-}
-
-ul.breadcrumb li a {
-  color: #000000;
-  text-decoration: none;
-}
-
-ul.breadcrumb li a:hover {
-
-  color: #0275d8;
-  text-decoration: underline;
-}
-
-
-#more {
-  display: none;
-}
-
-.Moreless {
-  font-family: 'Roboto Condensed';
-  text-align: justify;
-}
-
-#buttonreadmore {
-  border-color: #2196F3;
-  color: dodgerblue
-}
-
-#buttonreadmore:hover {
-  background: #2196F3;
-  color: white;
-}
-
-/* Navbar */
 .navbar {
   overflow: hidden;
   background-color: #333;
   position: fixed;
   top: 0;
-  min-width: 100%;
-  width: 100%;
-  z-index: 10;
-}
-
-
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  
-  max-height: 100px;
-}
-
-.navbar a:after,
-a:before {
-  transition: all .5s;
-}
-
-.navbar a {
-  position: relative;
-}
-
-.navbar a:after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 0%;
-  content: '.';
-  color: transparent;
-  background: rgb(255, 147, 5);
-  height: 1px;
-}
-
-.navbar a:hover:after {
-  width: 100%;
-  height: 3px;
-}
-
-.right-nav {
-  text-align: right;
-  width: 50%;
-
-}
-
-
-ul.westside {
-  text-align: justify;
-  font-family: 'Roboto Condensed';
-  font-size: 16px;
-}
-
-
-div.scroll {
-  padding-left: 7%;
-
-  padding-right: 7%;
-  margin: 4px, 4px;
-  background-color: whitesmoke;
-  width: 100%;
-  overflow-x: auto;
-  overflow-y: hidden;
-  white-space: nowrap;
-}
-
-img.img {
-  align-items: center;
-  max-height: 80px;
-}
-
-
-/* Pie-chart (> home) */
-#doughnutChart {
-  width: 100%;
-  height: 100px;
-  max-width: 600px;
-}
-
-/* scroll up button */
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: rgb(233, 67, 95);
-  color: white;
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 50%;
-}
-
-#myBtn:hover {
-  background-color: rgb(237, 116, 136);
-}
-
-.fd-center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-  display: block;
-}
-
-/* chart */
-.doughnutChart {
-  min-width: 100px;
-
-}
-
-.d-block {
-  display: flex;
-  width: 100%;
-  max-height: 500px;
-
-}
-
-@media only screen and (max-width: 600px) {
-  .d-block {
-    object-fit: cover;
-    display: flex;
-    max-height: 200px;
-  }
-}
-
-body {
-  background-color: whitesmoke;
-}
-
-#img {
-  width: 40px;
-  margin-right: 10px;
-}
-
-.footer {
-  padding-left: 20px;
-  padding-bottom: 20px;
-  position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: rgb(2, 28, 57);
-  color: snow;
-  text-align: center;
-  font-stretch: expanded;
-}
-.tdrow {
-  text-align: start;
-  text-align: justify;
-  padding: 1ch;
-
-}
-
-.button {
-  margin-top: 10px;
-  color: rgb(255, 255, 255);
-  background-color: rgb(131, 163, 252);
-  width: 40%;
-  height: 40px;
-  border-top-right-radius: 20px;
-  border-end-end-radius: 20px;
-  box-shadow: 0px 10px 10px rgb(132, 119, 119);
-  border-left: 7px solid rgb(1, 54, 246);
-  border-bottom-color: transparent;
-  border-right-color: transparent;
-  border-top-color: transparent;
-}
-
-.pill {
-  border: 2px;
-  background-color: #002147;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  color: whitesmoke;
-  max-width: fit-content;
-  border-radius: 50px 50px;
-  text-transform: uppercase;
-  font-size: 20px;
-}
-
-.card-body .card-title .badge {
-  background-color: #016064;
-}
-
-.card {
-  background-color: #ffffffd3;
-  height: 300px;
-  overflow: hidden;
-}       
-
-.card:hover {
-  box-shadow: 4.2px 8.3px 8.3px hsl(0deg 0% 0% / 0.37);
-  overflow: auto;
-  z-index: 7;
-
-}
-.card::-webkit-scrollbar {
-  width: 3px;
-}
-
-.card::-webkit-scrollbar-thumb {
-  border-radius: 4px;
-  background-color: rgba(0, 0, 0, .5);
-
-}
-
-.card-text {
-  color: black;
-}
-
-.card-img-top {
-  size: 20px;
-  border-radius: 50%;
-}
-
-/* Login form */
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 200px;
-  display: block;
-}
-
-
-
-.bg_img {
-  background-image: url(image/logos/bg_gu.webp);
-  height: auto;
-  padding: 15%;
-  width: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.pr_center {
-  text-align: center;
-  color: white;
-}
-
-div.first {
-  padding-left: 40px;
-
-}
-
-.ev1 {
-  display: inline-block;
-  flex: 33%;
-  padding-left: 30px;
-}
-
-.Openstack {
-
-  border-radius: 4px;
-  width: 700px;
-  height: 500px;
-  border-width: 5px;
-  border-color: rgb(73, 130, 187);
-}
-
-.Openstack2 {
-
-  border-radius: 4px;
-  width: 900px;
-  height: 700px;
-  border-width: 5px;
-  border-color: rgb(73, 130, 187);
-}
-
-div.fx1 {
-  /* I added this just for fun */
-  background-color: skyblue;
-  color: rgb(17, 15, 15);
-  font-family: Century Gothic;
-  padding: 10px;
-  text-align: center;
-  position: fixed;
-
-  /* The code that you need to copy */
-  left: 0px;
-  right: 0px;
-  top: 0px;
-}
-
-div.fx2 {
-  /* I added this just for fun */
-  background-color: skyblue;
-  color: rgb(17, 15, 15);
-  font-family: Century Gothic;
-  padding: 10px;
-  text-align: center;
-  position: relative;
-
-}
-
-.fa {
-  padding: 7px;
-  font-size: 20px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-}
-
-.fa:hover {
-  opacity: 0.5;
-}
-
-
-ul.breadcrumb {
-  padding: 10px 16px;
-  list-style: none;
-
-}
-
-ul.breadcrumb li {
-  display: inline;
-  font-size: 18px;
-}
-
-ul.breadcrumb li+li:before {
-  padding: 8px;
-  color: black;
-  content: "/\00a0";
-}
-
-ul.breadcrumb li a {
-  color: #000000;
-  text-decoration: none;
-}
-
-ul.breadcrumb li a:hover {
-
-  color: #0275d8;
-  text-decoration: underline;
-}
-
-
-#more {
-  display: none;
-}
-
-.Moreless {
-  font-family: 'Roboto Condensed';
-  text-align: justify;
-}
-
-#buttonreadmore {
-  border-color: #2196F3;
-  color: dodgerblue
-}
-
-#buttonreadmore:hover {
-  background: #2196F3;
-  color: white;
-}
-
-/* Navbar */
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
+  max-height: 250px;
   width: 100%;
   z-index: 10;
 }
@@ -709,7 +69,172 @@ a:before {
 .right-nav {
   text-align: right;
   width: 50%;
+}
 
+                                                                              /*TODO: Blocks [ home.html ,index.html ] */
+.d-block {
+  /** Display a block content */
+  display: flex;
+  width: 100%;
+  max-height: 500px;
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .d-block {
+    object-fit: cover;
+    display: flex;
+    max-height: 200px;
+  }
+}
+
+                                                                              /*TODO: Footer styling codes */
+.footer {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(2, 28, 57);
+  color: snow;
+  text-align: center;
+  font-stretch: expanded;
+}
+
+.tdrow {
+  /** Contact details */
+  text-align: start;
+  text-align: justify;
+  padding: 1ch;
+}
+
+                                                                                     /*TODO: Badge */
+.pill {
+  /** Badge styles for content heading */
+  border: 2px;
+  background-color: #002147;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 7px;
+  padding-bottom: 8px;
+  color: whitesmoke;
+  max-width: fit-content;
+  border-radius: 50px 50px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+                                                                                      /*TODO: Cards [ faculty.html ] */
+.card-body .card-title .badge {
+  background-color: #016064;
+}
+
+.card {
+  background-color: #ffffffd3;
+  height: 300px;
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: 4.2px 8.3px 8.3px hsl(0deg 0% 0% / 0.37);
+  overflow: auto;
+  z-index: 7;
+}
+
+.card:hover::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.card:hover::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background-color: grey;
+
+}
+
+.card-text {
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-img-top {
+  size: 20px;
+  border-radius: 50%;
+}
+
+                                                                                      /*TODO: Center style */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  display: block;
+}
+
+                                                                                            /*TODO: Faculty detail */
+.bg_img {
+  /** Images of fauclty members */
+  background-image: url(image/logos/bg_gu.webp);
+  height: auto;
+  padding: 15%;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pr_center {
+  /** Titles of the images */
+  text-align: center;
+  color: white;
+}
+
+                                                                                                /* TODO: Breadcrumbs */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+
+  color: #0275d8;
+  text-decoration: underline;
+}
+
+                                                                                          /*TODO: More [ home.html ] */
+#more {
+  display: none;
+}
+.Moreless {
+  font-family: 'Roboto Condensed';
+  text-align: justify;
+}
+
+#buttonreadmore {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+#buttonreadmore:hover {
+  background: #2196F3;
+  color: white;
 }
 
 
@@ -719,10 +244,9 @@ ul.westside {
   font-size: 16px;
 }
 
-
+                                                                                            /*TODO: Collaborator scroll [ home.html ] */
 div.scroll {
   padding-left: 7%;
-
   padding-right: 7%;
   margin: 4px, 4px;
   background-color: whitesmoke;
@@ -732,18 +256,17 @@ div.scroll {
   white-space: nowrap;
 }
 
-
 img.img {
   align-items: center;
   max-height: 80px;
 }
 
-
-/* Pie-chart (> home) */
+                                                                                          /* TODO: Pie-chart [ home.html ] */
 #doughnutChart {
+  width: 100%;
+  height: 100px;
   margin-left: auto;
   margin-right: auto;
-  width: 200px;
   display: block;
   min-width: 200px;
   min-height: 200px;
@@ -751,8 +274,16 @@ img.img {
   max-height: 450px;
 }
 
+                                                                                          /*TODO: Faculty detail tables */
+.fd-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  display: block;
+}
 
-/* scroll up button */
+                                                                                          /* TODO: scroll up button */
 #btn-back-to-top {
   position: fixed;
   bottom: 20px;

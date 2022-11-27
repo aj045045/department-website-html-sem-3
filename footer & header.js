@@ -7,7 +7,7 @@ let appHeader = `
     <nav class="navbar navbar-expand-sm navbar-dark  " id="back-color">
         <div class="container flex-start">
             <a class="navbar-brand" href="home.html">
-                <img src="image/logos/logo1.webp" alt="Avatar Logo" style="width:65px;" class="round"> 
+                <img src="image/logos/logo1.webp" alt="Avatar Logo" style="width:65px;border-radius: 50%;"> 
             </a>
 
             <button class="navbar-toggler d-lg-none" type="button" style="color: aliceblue;" data-bs-toggle="collapse"data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"aria-label="Toggle navigation">
