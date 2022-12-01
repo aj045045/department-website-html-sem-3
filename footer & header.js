@@ -72,38 +72,74 @@ document.getElementById("header").innerHTML = appHeader;
 
 let appFooter = ` 
 
-<div class="footer footer-expand-sm p-top-5 flex-end">
-        <h4 class="h4"><span class="badge bg-primary">CONTACT US</span></h4>
-        <hr style="height:3px; color:white;">
-        <table>
-            <tr>
-                <td><img src="image/logos/imap.webp" height="20px">|</td>
-                <td class="tdrow"> Gujarat University, near Ambedkar Gate, University Area, Ahmedabad,
-                    Gujarat 380009</td>
-            </tr>
+<div class="footer">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-6 footer-links">
+            <h3><u>Quick Links : </u></h3>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 footer-link">
+                    <h4>Academics</h4>
+                    <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a href="phd.html">Ph.D</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">MCA</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">PGDCA</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">M.sc AI & ML</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">M.Sc AI & ML & D</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">5 Years Integrated M.Sc-CS</a></li>
+                        <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">M.Sc AI & ML & D</a></li> -->
+                    </ul>
+                </div>
 
-            <tr>
-                <td>📞|</td>
-                <td class="tdrow"> 09727797105</td>
-            </tr>
+                <div class="col-lg-4 col-md-6 footer-links">
+                    <h4>Download</h4>
+                    <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a
+                                href="https://www1.gujaratuniversity.ac.in/custom/student/syllabus">Syllabus</a>
+                        </li>
+                    </ul>
+                </div>
 
-            <tr>
-                <td>📧| </td>
-                <td class="tdrow"> admissions.dcs@gmail.com</td>
-            </tr>
-        </table>
-        <a rel="noreferrer"
+                <div class="col-lg-4 col-md-6 footer-link">
+                    <h4>Faculties</h4>
+                    <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">fc_name1</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">fc_name2</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">fc_name3</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">fc_name4</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">fc_name5</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 footer-links">
+            <h3>CONTACT US</h3>
+            <div class="tdrow">
+                <img src="image/logos/imap.webp" height="20px">|
+                Gujarat University, Near Ambedkar Gate, University Area, Ahmedabad, Gujarat 380009
+            </div>
+            <div class="tdrow">📞| 09727797105</div>
+            <div class="tdrow">📧| admissions.dcs@gmail.com</div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center"><a rel="noreferrer"
                         href="https://www.facebook.com/M-Sc-Artificial-Intelligence-Machine-Learning-at-Rollwala-GU-654124395030598/"
-                        target="_blank"><img class="nav-img" src="image/logos/flogo.png"
-                           ></a>
-                    <a rel="noreferrer" href="https://www.instagram.com/msc_computerscience_gu/?next=%2F" target="_blank"><img class="nav-img"
-                            src="image/logos/insta.png"></a>
+                        target="_blank"><img class="nav-img" src="image/logos/flogo.png"></a></div>
+                <div class="col-lg-3 col-md-6"><a rel="noreferrer"
+                        href="https://www.instagram.com/msc_computerscience_gu/?next=%2F" target="_blank"><img
+                            class="nav-img" src="image/logos/insta.png"></a>
+                </div>
+                <div class="col-lg-3 col-md-6">
                     <a rel="noreferrer"
                         href="https://www.google.com/maps/place/Department+of+Computer+Science,+Maharshi+Pingal+-+School+of+Advanced+Computing+and+Information+Technology/@23.0362486,72.545091,19.77z/data=!4m5!3m4!1s0x395e859c09adf79f:0xe1d87bc33ed48fe7!8m2!3d23.0360673!4d72.5452956"
                         target="_blank"><img class="nav-img" src="image/logos/imap.webp"></a>
-                    
-                    
+                </div>
+            </div>
+        </div>
+
     </div>
+</div>
+</div>
 `;
 document.getElementById("footer").innerHTML = appFooter;
 
