@@ -100,8 +100,9 @@ a:before {
 
                                                                               /*TODO: Footer styling codes */
 .footer {
-  padding-left: 20px;
-  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 5px;
   position: relative;
   left: 0;
   bottom: 0;
@@ -114,9 +115,8 @@ a:before {
 
 .tdrow {
   /** Contact details */
-  text-align: start;
   text-align: justify;
-  padding: 2px;
+  padding-left: 10px;
 }
 
                                                                                      /*TODO: Badge */
