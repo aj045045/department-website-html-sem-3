@@ -92,8 +92,17 @@ let appFooter = `
                 <td class="tdrow"> admissions.dcs@gmail.com</td>
             </tr>
         </table>
-        <br><br>
-
+        <a rel="noreferrer"
+                        href="https://www.facebook.com/M-Sc-Artificial-Intelligence-Machine-Learning-at-Rollwala-GU-654124395030598/"
+                        target="_blank"><img class="nav-img" src="image/logos/flogo.png"
+                           ></a>
+                    <a rel="noreferrer" href="https://www.instagram.com/msc_computerscience_gu/?next=%2F" target="_blank"><img class="nav-img"
+                            src="image/logos/insta.png"></a>
+                    <a rel="noreferrer"
+                        href="https://www.google.com/maps/place/Department+of+Computer+Science,+Maharshi+Pingal+-+School+of+Advanced+Computing+and+Information+Technology/@23.0362486,72.545091,19.77z/data=!4m5!3m4!1s0x395e859c09adf79f:0xe1d87bc33ed48fe7!8m2!3d23.0360673!4d72.5452956"
+                        target="_blank"><img class="nav-img" src="image/logos/imap.webp"></a>
+                    
+                    
     </div>
 `;
 document.getElementById("footer").innerHTML = appFooter;

@@ -116,7 +116,7 @@ a:before {
   /** Contact details */
   text-align: start;
   text-align: justify;
-  padding: 1ch;
+  padding: 2px;
 }
 
                                                                                      /*TODO: Badge */
@@ -124,15 +124,15 @@ a:before {
   /** Badge styles for content heading */
   border: 2px;
   background-color: #002147;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 7px;
-  padding-bottom: 8px;
+  padding-right: 13px;
+  padding-left: 13px;
+  padding-top: 5px;
+  padding-bottom: 6px;
   color: whitesmoke;
   max-width: fit-content;
   border-radius: 50px 50px;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 17px;
 }
 
                                                                                       /*TODO: Cards [ faculty.html ] */
