@@ -43,20 +43,14 @@ let appHeader = `
                     </li>
                 </ul>
 
-                <div class="top-header hidden-xs" style="padding-top:0px">
-                <a rel="noreferrer"
-                        href="https://www.facebook.com/M-Sc-Artificial-Intelligence-Machine-Learning-at-Rollwala-GU-654124395030598/"
-                        target="_blank"><img class="nav-img" src="image/logos/flogo.png"
-                           ></a>
-                    <a rel="noreferrer" href="https://www.instagram.com/msc_computerscience_gu/?next=%2F" target="_blank"><img class="nav-img"
-                            src="image/logos/insta.png"></a>
-                    <a rel="noreferrer"
-                        href="https://www.google.com/maps/place/Department+of+Computer+Science,+Maharshi+Pingal+-+School+of+Advanced+Computing+and+Information+Technology/@23.0362486,72.545091,19.77z/data=!4m5!3m4!1s0x395e859c09adf79f:0xe1d87bc33ed48fe7!8m2!3d23.0360673!4d72.5452956"
-                        target="_blank"><img class="nav-img" src="image/logos/imap.webp"></a>
-                    <a class="nav-link text-light" href="signin.html" target="_blank"><b>SIGN IN</b></a><br>
+                <div class="top-header hidden-xs" style="padding:0px">
+                  <a class="nav-link text-light" href="signin.html" target="_blank">
+                  <b>SIGN IN</b></a>
+                  <a class="nav-link text-light" href="signup.html" target="#">
+                  <b>SIGN UP</b></a>
                     
                        
-                </li> 
+                 
                 <hr >
                     <form action="/action_page.php" style="padding-top:0px">
                         <input type="text" id="username" name="username">
@@ -73,92 +67,79 @@ document.getElementById("header").innerHTML = appHeader;
 let appFooter = ` 
 
 <div class="footer">
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-md-6 footer-links">
-            <h3><u>Quick Links : </u></h3>
+        <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6 footer-link start-left" >
-                    <h4>Academics</h4>
-                    <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="phd.html">Ph.D</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">MCA</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">PGDCA</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">M.sc AI & ML</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">M.Sc AI & ML & D</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">5 Years Integrated M.Sc-CS</a></li>
-                        <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">M.Sc AI & ML & D</a></li> -->
-                    </ul>
+                <div class="col-lg-8 col-md-6 footer-links">
+                    <h3><u>Quick Links : </u></h3>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 footer-link text-start">
+                            <h4>Academics</h4>
+                            <ul>
+                                <li><i class="bx bx-chevron-right"></i> <a href="phd.html"><h6>Ph.D</h6></a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="mca.html">MCA</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="pgdca.html">PGDCA</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="aiml.html">M.sc AI & ML</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="aimld.html">M.Sc AI & ML & D</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="msccs.html">5 Years Integrated M.Sc-CS</a></li>
+                                <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">M.Sc AI & ML & D</a></li> -->
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 footer-links text-start">
+                            <h4>Download</h4>
+                            <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a
+                            href="https://www1.gujaratuniversity.ac.in/custom/student/syllabus">Syllabus</a>
+                            </li>
+                            </ul>
+                            <h4>Faculties</h4>
+                            <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a
+                                        href="faculty.html">Faculties</a>
+                            </li>
+                            </ul>
+                        </div>
+
+                    
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 footer-links">
+                    <h3>CONTACT US</h3>
+                    <div class="tdrow">
+                        <img src="image/logos/imap.webp" height="20px">|
+                        Gujarat University, Near Ambedkar Gate, University Area, Ahmedabad, Gujarat 380009
+                    </div>
+                    <div class="tdrow">📞| 09727797105</div>
+                    <div class="tdrow">📧| admissions.dcs@gmail.com</div>
+                    <hr>
+                    <div class="row">
+                        <table>
+                            <tr>
+                                <td><a rel="noreferrer"
+                                        href="https://www.facebook.com/M-Sc-Artificial-Intelligence-Machine-Learning-at-Rollwala-GU-654124395030598/"
+                                        target="_blank"><img class="nav-img" src="image/logos/flogo.png"></a>
+                                </td>
+                                <td><a rel="noreferrer"
+                                        href="https://www.instagram.com/msc_computerscience_gu/?next=%2F"
+                                        target="_blank"><img class="nav-img" src="image/logos/insta.png"></a>
+                                </td>
+                                <td>
+                                    <a rel="noreferrer"
+                                        href="https://www.google.com/maps/place/Department+of+Computer+Science,+Maharshi+Pingal+-+School+of+Advanced+Computing+and+Information+Technology/@23.0362486,72.545091,19.77z/data=!4m5!3m4!1s0x395e859c09adf79f:0xe1d87bc33ed48fe7!8m2!3d23.0360673!4d72.5452956"
+                                        target="_blank"><img class="nav-img" src="image/logos/imap.webp"></a>
+                            </tr>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 footer-links start-left">
-                    <h4>Download</h4>
-                    <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a
-                                href="https://www1.gujaratuniversity.ac.in/custom/student/syllabus">Syllabus</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-4 col-md-6 footer-link start-left">
-                    <h4>Faculties</h4>
-                    <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">fc_name1</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">fc_name2</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">fc_name3</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">fc_name4</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">fc_name5</a></li>
-                    </ul>
-                </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-6 footer-links">
-            <h3>CONTACT US</h3>
-            <div class="tdrow">
-                <img src="image/logos/imap.webp" height="20px">|
-                Gujarat University, Near Ambedkar Gate, University Area, Ahmedabad, Gujarat 380009
-            </div>
-            <div class="tdrow">📞| 09727797105</div>
-            <div class="tdrow">📧| admissions.dcs@gmail.com</div>
-            <hr>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center"><a rel="noreferrer"
-                        href="https://www.facebook.com/M-Sc-Artificial-Intelligence-Machine-Learning-at-Rollwala-GU-654124395030598/"
-                        target="_blank"><img class="nav-img" src="image/logos/flogo.png"></a></div>
-                <div class="col-lg-3 col-md-6"><a rel="noreferrer"
-                        href="https://www.instagram.com/msc_computerscience_gu/?next=%2F" target="_blank"><img
-                            class="nav-img" src="image/logos/insta.png"></a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <a rel="noreferrer"
-                        href="https://www.google.com/maps/place/Department+of+Computer+Science,+Maharshi+Pingal+-+School+of+Advanced+Computing+and+Information+Technology/@23.0362486,72.545091,19.77z/data=!4m5!3m4!1s0x395e859c09adf79f:0xe1d87bc33ed48fe7!8m2!3d23.0360673!4d72.5452956"
-                        target="_blank"><img class="nav-img" src="image/logos/imap.webp"></a>
-                </div>
-            </div>
-        </div>
-
     </div>
-</div>
-</div>
 `;
 document.getElementById("footer").innerHTML = appFooter;
 
-//Over View
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("buttonreadmore");
 
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less";
-    moreText.style.display = "inline";
-  }
-}
 
 // PIE CHART  (> home)
 var ctxD = document.getElementById("doughnutChart").getContext("2d");
@@ -212,7 +193,7 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 let mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
