@@ -78,7 +78,7 @@ let appFooter = `
         <div class="col-lg-8 col-md-6 footer-links">
             <h3><u>Quick Links : </u></h3>
             <div class="row">
-                <div class="col-lg-4 col-md-6 footer-link">
+                <div class="col-lg-4 col-md-6 footer-link start-left" >
                     <h4>Academics</h4>
                     <ul>
                         <li><i class="bx bx-chevron-right"></i> <a href="phd.html">Ph.D</a></li>
@@ -91,7 +91,7 @@ let appFooter = `
                     </ul>
                 </div>
 
-                <div class="col-lg-4 col-md-6 footer-links">
+                <div class="col-lg-4 col-md-6 footer-links start-left">
                     <h4>Download</h4>
                     <ul>
                         <li><i class="bx bx-chevron-right"></i> <a
@@ -100,7 +100,7 @@ let appFooter = `
                     </ul>
                 </div>
 
-                <div class="col-lg-4 col-md-6 footer-link">
+                <div class="col-lg-4 col-md-6 footer-link start-left">
                     <h4>Faculties</h4>
                     <ul>
                         <li><i class="bx bx-chevron-right"></i> <a href="#">fc_name1</a></li>
