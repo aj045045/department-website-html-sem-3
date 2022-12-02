@@ -62,77 +62,77 @@ document.getElementById("header").innerHTML = appHeader;
 //  Footer
 
 let appFooter = ` 
-
 <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-6 footer-links">
-                    <h3>Quick Links</h3><hr>
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 footer-link text-start">
-                            <h4>Academics</h4>
-                            <ul>
-                                <li> <a href="phd.html"><h6>Ph.D</h6></a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="mca.html">MCA</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="pgdca.html">PGDCA</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="aiml.html">M.sc AI & ML</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="aimld.html">M.Sc AI & ML & D</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="msccs.html">5 Years Integrated M.Sc-CS</a></li>
-                                <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">M.Sc AI & ML & D</a></li> -->
-                            </ul>
-                        </div>
-
-                        <div class="col-lg-6 col-md-6 footer-links text-start">
-                            <h4>Download</h4>
-                            <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a
-                            href="https://www1.gujaratuniversity.ac.in/custom/student/syllabus">Syllabus</a>
-                            </li>
-                            </ul>
-                            <h4>Faculties</h4>
-                            <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a
-                                        href="faculty.html">Faculties</a>
-                            </li>
-                            </ul>
-                        </div>
-
-                    
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 footer-links">
-                    <h3>CONTACT US</h3><hr>
-                    <div class="tdrow">
-                        <img src="image/logos/imap.webp" height="20px">|
-                        Gujarat University, Near Ambedkar Gate, University Area, Ahmedabad, Gujarat 380009
-                    </div>
-                    <div class="tdrow">📞| 09727797105</div>
-                    <div class="tdrow">📧| admissions.dcs@gmail.com</div>
-                    <hr>
-                    <div class="row">
-                        <table>
-                            <tr>
-                                <td><a rel="noreferrer"
-                                        href="https://www.facebook.com/M-Sc-Artificial-Intelligence-Machine-Learning-at-Rollwala-GU-654124395030598/"
-                                        target="_blank"><img class="nav-img" src="image/logos/flogo.png"></a>
-                                </td>
-                                <td><a rel="noreferrer"
-                                        href="https://www.instagram.com/msc_computerscience_gu/?next=%2F"
-                                        target="_blank"><img class="nav-img" src="image/logos/insta.png"></a>
-                                </td>
-                                <td>
-                                    <a rel="noreferrer"
-                                        href="https://www.google.com/maps/place/Department+of+Computer+Science,+Maharshi+Pingal+-+School+of+Advanced+Computing+and+Information+Technology/@23.0362486,72.545091,19.77z/data=!4m5!3m4!1s0x395e859c09adf79f:0xe1d87bc33ed48fe7!8m2!3d23.0360673!4d72.5452956"
-                                        target="_blank"><img class="nav-img" src="image/logos/imap.webp"></a>
-                            </tr>
-                            </tr>
-                        </table>
-                    </div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-6 footer-links">
+            <h6>Quick Links</h6>
+            <div class="row small">
+                <div class="col-lg-6 col-md-6 footer-link text-start">
+                    <b>Academics</b>
+                    <ul style="font-size: smaller;">
+                        <li><a href="phd.html">Ph.D</a></li>
+                        <li><a href="mca.html">MCA</a></li>
+                        <li><a href="pgdca.html">PGDCA</a></li>
+                        <li><a href="aiml.html">M.sc AI & ML</a></li>
+                        <li><a href="aimld.html">M.Sc AI & ML & D</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="msccs.html">5 Years Integrated M.Sc-CS</a></li>
+                        <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">M.Sc AI & ML & D</a></li> -->
+                    </ul>
                 </div>
 
+                <div class="col-lg-6 col-md-6 footer-links text-start">
+                    <b>Download</b>
+                    <ul style="font-size: smaller;">
+                    <li><a
+                    href="https://www1.gujaratuniversity.ac.in/custom/student/syllabus">Syllabus</a>
+                    </li>
+                    </ul>
+                    <b>Faculties</b>
+                    <ul style="font-size: smaller;">
+                    <li><a
+                                href="faculty.html">Faculties</a>
+                    </li>
+                    </ul>
+                </div>
+
+            
             </div>
         </div>
+        <div class="col-lg-4 col-md-6 footer-links">
+            <h6>CONTACT US</h6>
+            <div class="tdrow">
+                <img src="image/logos/imap.webp" height="20px">|
+                Gujarat University, Near Ambedkar Gate, University Area, Ahmedabad, Gujarat 380009
+            </div>
+            <div class="tdrow">📞| 09727797105</div>
+            <div class="tdrow">📧| admissions.dcs@gmail.com</div>
+            
+            <div class="tdrow">
+                <table>
+                    <tr>
+                        <td><a rel="noreferrer"
+                                href="https://www.facebook.com/M-Sc-Artificial-Intelligence-Machine-Learning-at-Rollwala-GU-654124395030598/"
+                                target="_blank"><img class="nav-img" src="image/logos/flogo.png"></a>
+                        </td>
+                        <td><a rel="noreferrer"
+                                href="https://www.instagram.com/msc_computerscience_gu/?next=%2F"
+                                target="_blank"><img class="nav-img" src="image/logos/insta.png"></a>
+                        </td>
+                        <td>
+                            <a rel="noreferrer"
+                                href="https://www.google.com/maps/place/Department+of+Computer+Science,+Maharshi+Pingal+-+School+of+Advanced+Computing+and+Information+Technology/@23.0362486,72.545091,19.77z/data=!4m5!3m4!1s0x395e859c09adf79f:0xe1d87bc33ed48fe7!8m2!3d23.0360673!4d72.5452956"
+                                target="_blank"><img class="nav-img" src="image/logos/imap.webp"></a>
+                    </tr>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
     </div>
+</div>
+</div>
+
 `;
 document.getElementById("footer").innerHTML = appFooter;
 
