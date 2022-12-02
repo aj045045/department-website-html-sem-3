@@ -44,13 +44,10 @@ let appHeader = `
                 </ul>
 
                 <div class="top-header hidden-xs" style="padding:0px">
-                  <a class="nav-link text-light" href="signin.html" target="_blank">
-                  <b>SIGN IN</b></a>
                   <a class="nav-link text-light" href="signup.html" target="#">
                   <b>SIGN UP</b></a>
-                    
-                       
-                 
+                  <a class="nav-link text-light" href="signin.html" target="_blank">
+                  <b>SIGN IN</b></a>
                 <hr >
                     <form action="/action_page.php" style="padding-top:0px">
                         <input type="text" id="username" name="username">
@@ -70,12 +67,12 @@ let appFooter = `
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-6 footer-links">
-                    <h3><u>Quick Links : </u></h3>
+                    <h3>Quick Links</h3><hr>
                     <div class="row">
                         <div class="col-lg-6 col-md-6 footer-link text-start">
                             <h4>Academics</h4>
                             <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="phd.html"><h6>Ph.D</h6></a></li>
+                                <li> <a href="phd.html"><h6>Ph.D</h6></a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="mca.html">MCA</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="pgdca.html">PGDCA</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="aiml.html">M.sc AI & ML</a></li>
@@ -104,7 +101,7 @@ let appFooter = `
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 footer-links">
-                    <h3>CONTACT US</h3>
+                    <h3>CONTACT US</h3><hr>
                     <div class="tdrow">
                         <img src="image/logos/imap.webp" height="20px">|
                         Gujarat University, Near Ambedkar Gate, University Area, Ahmedabad, Gujarat 380009
